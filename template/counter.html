@@ -1,0 +1,14 @@
+{% load static %}
+
+<link rel="stylesheet" href="{% static 'style.css' %}">
+<p>
+    Your Text: 
+    <span id="given-text">
+        {{message}}
+    </span> <br> <br>
+
+    Total Words:
+    <span id="word-count">
+        {{total_words}}
+    </span>
+</p>
